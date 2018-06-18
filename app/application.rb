@@ -1,10 +1,6 @@
 require 'pry'
 class Application 
-  attr_accessor :now
-  def initialize(now)
-    @now == now
-  end 
-  
+ 
   def call(env)
     resp = Rack::Response.new
     
