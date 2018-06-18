@@ -9,7 +9,7 @@ class Application
     if hour < 12 && hour > 0
       resp.write "morning"
     else 
-      resp.write "afternoon"
+      resp.write "Afternoon"
     end 
     resp.finish
     
