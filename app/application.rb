@@ -7,9 +7,9 @@ class Application
     hour = time.hour 
     
     if hour < 12 && hour > 0
-      resp.write "Morning"
+      resp.write "morning"
     else 
-      resp.write "Afternoon"
+      resp.write "afternoon"
     end 
     resp.finish
     
