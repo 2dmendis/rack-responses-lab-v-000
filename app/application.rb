@@ -1,3 +1,4 @@
+require 'pry'
 class Application
   
   def call(env)
@@ -11,5 +12,7 @@ class Application
       resp.write "Good Afternoon!"
     end 
     resp.finish
+    binding.pry
   end 
+  
 end 
