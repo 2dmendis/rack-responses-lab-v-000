@@ -1,5 +1,5 @@
 require 'pry'
-class Time 
+class Application 
   attr_accessor :now
   def initialize(now)
     @now == now
