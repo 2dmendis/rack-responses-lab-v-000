@@ -1,4 +1,4 @@
-
+require 'pry'
 class Time 
   attr_accessor :now
   def initialize(now)
@@ -14,4 +14,5 @@ class Time
       resp.write "Good Morning!"
     end 
     resp.finish
+    binding.pry
 end 
